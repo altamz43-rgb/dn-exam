@@ -144,6 +144,12 @@ button img {
   padding: 80px 180px;
 }
 
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header-text h1 {
   text-transform: capitalize;
   text-align: center;
@@ -152,8 +158,9 @@ button img {
 }
 
 .header-text p {
+  width: 80%;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #545454;
 }
 
@@ -385,6 +392,7 @@ button img {
 }
 
 .feedback-section h1 {
+  color: #545454;
   text-align: center;
   padding: 10px 100px;
   text-transform: capitalize;
@@ -409,6 +417,7 @@ button img {
 }
 
 .feedback-1 p {
+  color: #545454;
   font-size: 0.7rem;
   margin-left: 10px;
 }
@@ -421,6 +430,7 @@ button img {
 }
 
 .feedback-2 p {
+  color: #545454;
   font-size: 0.7rem;
   margin-left: 10px;
 }
@@ -433,6 +443,7 @@ button img {
 }
 
 .feedback-3 p {
+  color: #545454;
   font-size: 0.7rem;
   margin-left: 10px;
 }
